@@ -1,0 +1,25 @@
+{
+  "name": "docx-generator",
+  "version": "1.0.0",
+  "description": "Script to generate a 500-page DOCX file",
+  "main": "generate-docx.ts",
+  "scripts": {
+    "generate": "tsx generate-docx.ts",
+    "generate-docx": "tsx generate-docx.ts",
+    "generate-pdf": "tsx generate-pdf.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "canvas": "^3.2.0",
+    "docx": "^8.5.0",
+    "jspdf": "^2.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
